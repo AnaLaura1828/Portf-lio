@@ -1,8 +1,8 @@
-        *{
-            background-color: rgb(187, 241, 234);
-         
-        }
-        h4{
+body {
+    background-image:url(./fundo\ portfolio.jpg);
+}
+
+h4{
             display: flex;
             font-family: fantasy;
             color: black;
@@ -24,30 +24,34 @@
         }
         #minha-foto {
             display: flex;
-            float: left;
+            /* float: left; */
             padding: 10px;
             height: 280px;
             border-radius: 30px;
-            
-        }
-        .imagem-ajeitada{
-            height: 300px;
+            justify-content: center;
+            border: solid blue 2px;
+            align-self: center;
         }
         
         .cabeçalho{
             display: flex;
-            justify-content: space-between;
+            flex-direction: row;
     
         }
         .otherList {
          display: flex;
          flex-direction: column;
         }
-        .instagram {
-            display: flex;
-            color: black;
-        }
-        .list-habilit a {
+.instagram {
+  display: flex;
+  color: black;
+}
+
+.list-habilit a {
             text-decoration: none;
-        }
-       
+ }
+
+ .instagram {
+     display: flex;
+
+ }
